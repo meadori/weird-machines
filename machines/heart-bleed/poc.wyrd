@@ -1,0 +1,3 @@
+$buffer = memory.read(1024)
+$b64buffer = sys.b64encode($buffer)
+sys.write($b64buffer)
